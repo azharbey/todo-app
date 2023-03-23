@@ -8,7 +8,7 @@ export default function ToDo() {
   const [todo, setTodo]  = useState([
     {todoText: "hello", compeleted: false},
     {todoText: "world", compeleted: true},
-    {todoText: "welcome",compeleted: false},
+    {todoText: "welcome", compeleted: false},
     {todoText: "new", compeleted: true}
     ])
     
@@ -27,9 +27,9 @@ const onClickHandler = (gelm: any) => {
 }
 
 const AddTodo = () => {
-    const newTodo = {todoText: ptodo, completed: false}
-    const newTodos = [...todo, newTodo]
-    setTodo(newTodos)
+    const newTodo = {todoText: ptodo, compeleted: false}
+    const newATodos = [...todo, newTodo]
+    setTodo(newATodos) 
     setATodo("")
 }
 
